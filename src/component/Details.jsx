@@ -6,7 +6,7 @@ import { SlCalender } from "react-icons/sl";
 const Details = () => {
   return (
     <>
-      <div className="container   mt-4 py-5 px-5" style={{background:"#F8F8F8", borderRadius:"30px"}}>
+      <div className="container mt-4 py-5 px-5" style={{background:"#F8F8F8", borderRadius:"30px"}}>
         {/* first layout */}
         <div>
           <div className="fs-4 fw-bold">Skills</div>

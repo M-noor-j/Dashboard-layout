@@ -5,14 +5,14 @@ const Header = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container">
-        <div class="d-flex align-items-center w-50 py-2 rounded px-3" style={{background:"#F3F3F3"}}>
+        <div class="d-flex align-items-center w-25 py-2 rounded px-3" style={{background:"#F3F3F3"}}>
         <IoSearchOutline />
           <input
-            class="ps-3"
+            className="ps-3"
             type="search"
             placeholder="Search"
             aria-label="Search"
-            style={{border:"none",background:"#F3F3F3"}}
+            style={{border:"none",background:"#F3F3F3", }}
           />
         </div>
 
@@ -35,7 +35,7 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <LuBellRing className="fs-3 me-4"/>
+          <LuBellRing className="fs-4 me-4"/>
           <a class="navbar-brand " href="#">
            Hello, Mr.Monish <img src="https://pics.craiyon.com/2023-06-23/2c83e3163d0348e9b88660a0a5d86459.webp" class="" style={{width:"60px", borderRadius:"200px"}}/>
           </a>

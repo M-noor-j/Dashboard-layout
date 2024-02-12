@@ -17,7 +17,7 @@ function App() {
     <div className='grid-container'>
     
       <Sidebar openSidebarToggle={openSidebarToggle} OpenSidebar={OpenSidebar}/>
-      <div className="second-side">
+      <div className="second-side px-3">
       <Header/>
       <Bottom/>
       <Details/>

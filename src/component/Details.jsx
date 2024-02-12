@@ -6,7 +6,7 @@ import { SlCalender } from "react-icons/sl";
 const Details = () => {
   return (
     <>
-      <div className="container mt-4 py-5 px-5" style={{background:"#F8F8F8", borderRadius:"30px"}}>
+      <div className="container mt-4 py-5 px-4 mb-5" style={{background:"#F8F8F8", borderRadius:"30px"}}>
         {/* first layout */}
         <div>
           <div className="fs-4 fw-bold">Skills</div>
@@ -21,7 +21,7 @@ const Details = () => {
 
         {/* second section */}
         <div className="fs-4 mt-4 fw-bold">Prev Jobs</div>
-        <div className="d-flex justify-content-between">
+        <div className="d-flex justify-content-end">
           <div>
             <form action="#">
               <div class="user__details">
@@ -32,25 +32,25 @@ const Details = () => {
                     type="text"
                     placeholder="Title"
                     required
-                    style={{ background: "#F0F0F0" }}
-                    className="mt-2"
+                    style={{ background: "#F0F0F0", }}
+                    className="mt-2 "
                   />
                 </div>
-                <div class="input__box">
+                <div class="input__box ">
                   <span class="details">Company Name</span>
                   <input
                     type="text"
                     placeholder="Name"
                     required
                     style={{ background: "#F0F0F0" }}
-                    className="mt-2"
+                    className="mt-2 "
                   />
                 </div>
                 <div class="input__box">
                   <span class="details">Company contact</span>
                   <input
                     type="email"
-                    placeholder="johnsmith@hotmail.com"
+                    placeholder="Email"
                     required
                     style={{ background: "#F0F0F0" }}
                     className="mt-2"
@@ -88,7 +88,7 @@ const Details = () => {
           </div>
 
           {/* second column */}
-          <div className="ms-3 ">
+          <div className="">
             <form action="#" className="">
               <div className="user__details">
                 <div className="input__box">

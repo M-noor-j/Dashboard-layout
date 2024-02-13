@@ -7,7 +7,7 @@ const Details = () => {
   return (
     <>
       <div
-        className="container mt-4 py-5 px-4 mb-5"
+        className="container mt-2 py-5 px-4 mb-3"
         style={{ background: "#F8F8F8", borderRadius: "30px" }}
       >
         {/* first layout */}
@@ -15,10 +15,10 @@ const Details = () => {
           <div className="" style={{fontSize:"20px"}}>Skills</div>
           <div className="py-2 rounded mt-2" style={{ background: "#F0F0F0" }}>
             <div className=" d-flex ">
-              <div className="  ms-3 rounded px-1 bg-light" style={{fontSize:"12px"}}>
+              <div className="  ms-3 rounded px-2 py-1 bg-light" style={{fontSize:"12px"}}>
                 React js <RxCross2 className="ms-3" />{" "}
               </div>
-              <div className="bg-light  ms-3 rounded px-1" style={{fontSize:"12px"}}>
+              <div className="bg-light  ms-3 rounded px-2 py-1" style={{fontSize:"12px"}}>
                 Angular js <RxCross2 className="ms-3" />
               </div>
             </div>
@@ -159,7 +159,7 @@ const Details = () => {
           </div>
         </div>
         <div className="save-details mt-5">
-          <Button label={"Add Details"} />
+          <Button label={"Add Details"}  />
         </div>
       </div>
     </>

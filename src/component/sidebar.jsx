@@ -24,29 +24,29 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
       <ul className="sidebar-list">
         <li className="sidebar-list-item">
           <a href="">
-            <MdOutlineSpaceDashboard className="icon" /> Dashboard
+            <MdOutlineSpaceDashboard className="icon pe-3 fs-1 pb-1" /> Dashboard
           </a>
         </li>
         <li className="sidebar-list-item">
           <a href="">
-            <FaRegUser className="icon" /> Employee
+            <FaRegUser className="icon pe-3 fs-2 pb-1" /> Employee
           </a>
         </li>
         <li className="sidebar-list-item">
           <a href="">
-            <IoBagHandleOutline className="icon" />
+            <IoBagHandleOutline className="icon pe-3 fs-1 pb-1" />
            Vacancies
           </a>
         </li>
         <li className="sidebar-list-item">
           <a href="">
-            <SlCalender className="icon" />
+            <SlCalender className="icon pe-3 fs-1 pb-1" />
            Calender
           </a>
         </li>
         <li className="sidebar-list-item ">
           <a href="" className="">
-            <IoDocumentTextOutline className="icon" />Document
+            <IoDocumentTextOutline className="icon pe-3 fs-1 pb-2" />Document
           </a>
         </li>
       </ul>

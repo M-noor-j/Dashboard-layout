@@ -1,31 +1,30 @@
 form .user__details {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px 20px 12px 0px;
-  }
-  /* inside the form user details */
-  form .user__details .input__box {
-    width: calc(100% / 2 - 5px);
-    margin-bottom: 15px;
-  }
-  
-  
-  .user__details .input__box input {
-    height: 45px;
-    width: 100%;
-    outline: none;
-    border-radius: 5px;
-    border: 1px solid var(--main-grey);
-    padding-left: 15px;
-    font-size: 14px;
-    border-bottom-width: 2px;
-    transition: all 0.3s ease;
-  }
-  
-  
-  .save-details .container{
-    display: flex;
-    justify-content: center;
-  
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* margin: 20px 20px 12px 0px; */
+  margin-top: 20px;
+ 
+}
+/* inside the form user details */
+form .user__details .input__box {
+  width: calc(100% / 2 - 5px);
+  margin-bottom: 15px;
+}
+
+.user__details .input__box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid var(--main-grey);
+  padding-left: 15px;
+  font-size: 14px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.save-details .container {
+  display: flex;
+  justify-content: center;
+}

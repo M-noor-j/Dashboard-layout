@@ -6,8 +6,11 @@ const Button = ({ label }) => {
       <div className="container">
         <button
           type="button"
-          class="btn text-white"
-          style={{ background: "#033e8a" }}
+          class="btn text-white "
+          style={{
+            background: "#033e8a",
+            boxShadow: "0px 0px 5px 0px #033e8a",
+          }}
         >
           <IoPersonAddSharp className="mb-1 me-2" />
           {label}

@@ -7,18 +7,26 @@ const Details = () => {
   return (
     <>
       <div
-        className="container mt-2 py-5 px-4 mb-3"
+        className="container mt-3 py-5 px-4 mb-3"
         style={{ background: "#F8F8F8", borderRadius: "30px" }}
       >
         {/* first layout */}
         <div>
-          <div className="" style={{fontSize:"20px"}}>Skills</div>
+          <div className="" style={{ fontSize: "20px" }}>
+            Skills
+          </div>
           <div className="py-2 rounded mt-2" style={{ background: "#F0F0F0" }}>
             <div className=" d-flex ">
-              <div className="  ms-3 rounded px-2 py-1 bg-light" style={{fontSize:"12px"}}>
+              <div
+                className="  ms-3 rounded px-2 py-1 bg-light"
+                style={{ fontSize: "12px" }}
+              >
                 React js <RxCross2 className="ms-3" />{" "}
               </div>
-              <div className="bg-light  ms-3 rounded px-2 py-1" style={{fontSize:"12px"}}>
+              <div
+                className="bg-light  ms-3 rounded px-2 py-1"
+                style={{ fontSize: "12px" }}
+              >
                 Angular js <RxCross2 className="ms-3" />
               </div>
             </div>
@@ -26,13 +34,17 @@ const Details = () => {
         </div>
 
         {/* second section */}
-        <div className=" mt-4 " style={{fontSize:"20px"}}>Prev Jobs</div>
+        <div className=" mt-4 " style={{ fontSize: "20px" }}>
+          Prev Jobs
+        </div>
         <div className="d-flex ">
           <div>
             <form action="#">
               <div class="user__details">
                 <div class="input__box">
-                  <span class="details" style={{fontSize:"13px"}}>Job Title</span>
+                  <span class="details" style={{ fontSize: "13px" }}>
+                    Job Title
+                  </span>
 
                   <input
                     type="text"
@@ -43,7 +55,9 @@ const Details = () => {
                   />
                 </div>
                 <div class="input__box ">
-                  <span class="details" style={{fontSize:"13px"}}>Company Name</span>
+                  <span class="details" style={{ fontSize: "13px" }}>
+                    Company Name
+                  </span>
                   <input
                     type="text"
                     placeholder="Name"
@@ -53,7 +67,9 @@ const Details = () => {
                   />
                 </div>
                 <div class="input__box">
-                  <span class="details" style={{fontSize:"13px"}}>Company contact</span>
+                  <span class="details" style={{ fontSize: "13px" }}>
+                    Company contact
+                  </span>
                   <input
                     type="email"
                     placeholder="Email"
@@ -63,7 +79,9 @@ const Details = () => {
                   />
                 </div>
                 <div class="input__box">
-                  <span class="details" style={{fontSize:"13px"}}>Salary</span>
+                  <span class="details" style={{ fontSize: "13px" }}>
+                    Salary
+                  </span>
                   <input
                     type="tel"
                     pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
@@ -74,7 +92,9 @@ const Details = () => {
                   />
                 </div>
                 <div class="input__box">
-                  <span class="details" style={{fontSize:"13px"}}>Duration</span>
+                  <span class="details" style={{ fontSize: "13px" }}>
+                    Duration
+                  </span>
                   <div
                     className="d-flex align-items-center pe-3 rounded mt-2"
                     style={{ background: "#F0F0F0" }}
@@ -95,11 +115,13 @@ const Details = () => {
 
           {/* second column */}
 
-          <div className="">
+          <div className="ms-5">
             <form action="#" className="">
               <div className="user__details">
                 <div className="input__box">
-                  <span className="details"style={{fontSize:"13px"}}>Training Name</span>
+                  <span className="details" style={{ fontSize: "13px" }}>
+                    Training Name
+                  </span>
                   <input
                     type="text"
                     placeholder="Name"
@@ -109,7 +131,9 @@ const Details = () => {
                   />
                 </div>
                 <div className="input__box">
-                  <span className="details" style={{fontSize:"13px"}}>Institute Name</span>
+                  <span className="details" style={{ fontSize: "13px" }}>
+                    Institute Name
+                  </span>
                   <input
                     type="text"
                     placeholder="Name"
@@ -119,7 +143,9 @@ const Details = () => {
                   />
                 </div>
                 <div className="input__box">
-                  <span className="details" style={{fontSize:"13px"}}>Description</span>
+                  <span className="details" style={{ fontSize: "13px" }}>
+                    Description
+                  </span>
                   <input
                     type="email"
                     placeholder="Description"
@@ -129,7 +155,9 @@ const Details = () => {
                   />
                 </div>
                 <div className="input__box">
-                  <span className="details" style={{fontSize:"13px"}}>Training Duration</span>
+                  <span className="details" style={{ fontSize: "13px" }}>
+                    Training Duration
+                  </span>
                   <div
                     className="d-flex align-items-center pe-3 rounded mt-2"
                     style={{ background: "#F0F0F0" }}
@@ -145,7 +173,9 @@ const Details = () => {
                   </div>
                 </div>
                 <div className="input__box">
-                  <span className="details" style={{fontSize:"13px"}}>Outcome Details</span>
+                  <span className="details" style={{ fontSize: "13px" }}>
+                    Outcome Details
+                  </span>
                   <input
                     type="text"
                     placeholder="Details"
@@ -159,7 +189,7 @@ const Details = () => {
           </div>
         </div>
         <div className="save-details mt-5">
-          <Button label={"Add Details"}  />
+          <Button label={"Add Details"} />
         </div>
       </div>
     </>

@@ -5,16 +5,15 @@ import { FaRegUser } from "react-icons/fa";
 import { IoBagHandleOutline } from "react-icons/io5";
 import { SlCalender } from "react-icons/sl";
 import { IoDocumentTextOutline } from "react-icons/io5";
-import Capture from "../images/Capture.PNG"
+import Capture from "../images/Capture.PNG";
 function Sidebar({ openSidebarToggle, OpenSidebar }) {
   return (
     <aside
       id="sidebar"
       className={openSidebarToggle ? "sidebar-responsive" : ""}
     >
-      
       <div className="sidebar-title">
-        <img src={Capture} alt="" className=""/>
+        <img src={Capture} alt="" className="" />
         <div className="sidebar-brand">Techilab HRMS</div>
         <span className="icon close_icon" onClick={OpenSidebar}>
           X
@@ -24,7 +23,8 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
       <ul className="sidebar-list">
         <li className="sidebar-list-item">
           <a href="">
-            <MdOutlineSpaceDashboard className="icon pe-3 fs-1 pb-1" /> Dashboard
+            <MdOutlineSpaceDashboard className="icon pe-3 fs-1 pb-1" />{" "}
+            Dashboard
           </a>
         </li>
         <li className="sidebar-list-item">
@@ -35,18 +35,19 @@ function Sidebar({ openSidebarToggle, OpenSidebar }) {
         <li className="sidebar-list-item">
           <a href="">
             <IoBagHandleOutline className="icon pe-3 fs-1 pb-1" />
-           Vacancies
+            Vacancies
           </a>
         </li>
         <li className="sidebar-list-item">
           <a href="">
             <SlCalender className="icon pe-3 fs-1 pb-1" />
-           Calender
+            Calender
           </a>
         </li>
         <li className="sidebar-list-item ">
           <a href="" className="">
-            <IoDocumentTextOutline className="icon pe-3 fs-1 pb-2" />Document
+            <IoDocumentTextOutline className="icon pe-3 fs-1 pb-2" />
+            Document
           </a>
         </li>
       </ul>
